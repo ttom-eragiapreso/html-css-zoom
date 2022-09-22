@@ -72,6 +72,9 @@ main {
 .user {
   position: relative;
   height: 200px;
+  /* border: 1px solid black; */
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .user-name {
@@ -79,7 +82,7 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgba(119, 136, 153, .75);
+  background-color: rgba(0, 0, 0, .55);
   padding: 10px 5px;
 }
 
