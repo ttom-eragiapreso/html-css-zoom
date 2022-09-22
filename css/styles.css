@@ -58,13 +58,11 @@ nav {
 main {
   height: calc(100vh - 170px);
   overflow: auto;
-  background-color: brown;
+  background-color: black;
 }
 
 
 .people-container {
-  display: flex;
-  flex-wrap: wrap;
   background-color: black;
   width: 90%;
   height: calc(100vh - 170px);
@@ -83,6 +81,11 @@ main {
   left: 0;
   background-color: rgba(119, 136, 153, .75);
   padding: 10px 5px;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* FOOTER */
