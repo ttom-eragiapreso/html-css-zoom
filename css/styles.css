@@ -73,8 +73,6 @@ main {
   position: relative;
   height: 200px;
   border: 2px solid black;
-  /* margin-right: 5px;
-  margin-bottom: 5px; */
 }
 
 .user-name {
@@ -101,6 +99,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding-left: 15px;
+  flex-shrink: 0;
 }
 
 footer .footer-left .icon-container:last-of-type {
@@ -115,6 +114,7 @@ footer i {
 .footer-left, .footer-center, .footer-right {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 /* Footer Center */
